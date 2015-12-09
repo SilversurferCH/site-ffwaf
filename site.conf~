@@ -1,13 +1,11 @@
 {
 hostname_prefix = 'freifunk',
-	hostname_prefix = 'ffwaf-',
-	site_name = 'Freifunk im Kreis Warendorf',
-	site_code = 'ffwaf-dom1',
+	site_name = 'Freifunk Muenster',
+	site_code = 'ffms',
 
-	prefix4 = '10.43.112.0/20',
-	prefix6 = '2a03:2260:115:fe03::/64',
+	prefix4 = '10.43.0.0/16',
+	prefix6 = '2a03:2260:115::/64',
 
-	mesh_on_wan = false,
 	mesh_on_lan = true,
 	
 	-- timezone
@@ -25,8 +23,8 @@ hostname_prefix = 'freifunk',
 			ssid = 'Freifunk',
 		},
 		ibss = {
-			ssid = 'ffwaf-dom1-mesh',
-			bssid = '02:d1:11:37:f1:12',
+			ssid = '02:d1:11:37:fc:38',
+			bssid = '02:d1:11:37:fc:38',
 			mcast_rate = 12000,
 		},
 	},
@@ -36,15 +34,15 @@ hostname_prefix = 'freifunk',
 			ssid = 'Freifunk',
 		},
 		ibss = {
-			ssid = 'ffwaf-dom1-mesh',
-			bssid = '02:d1:11:37:f1:12',
+			ssid = '02:d1:11:37:fc:38',
+			bssid = '02:d1:11:37:fc:38',
 			mcast_rate = 12000,
 		},
 	},
 
 	next_node = {
-		ip4 = '10.43.112.1',
-		ip6 = '2a03:2260:115:ff03::1',
+		ip4 = '10.43.0.1',
+		ip6 = '2a03:2260:115::1',
 
 		mac = 'de:ad:be:ef:43:01',
 	},
