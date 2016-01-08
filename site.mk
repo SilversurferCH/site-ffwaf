@@ -42,7 +42,11 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
+<<<<<<< HEAD
 DEFAULT_GLUON_RELEASE := 2015.2-0.1exp$(shell date '+%Y%m%d')
+=======
+DEFAULT_GLUON_RELEASE := ffwaf_master+exp$(shell date '+%Y%m%d')
+>>>>>>> 941c57a01e8f4f9d0576fb487e39560d38fecf4f
 
 
 ##	GLUON_RELEASE
