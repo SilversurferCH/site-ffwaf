@@ -1,0 +1,3 @@
+local running, total = util.readline(io.open('/proc/loadavg')):match('^[^ ]+ [^ ]+ [^ ]+ (%d+)/(%d+)')
+
+return { running = tonumber(running), total = tonumber(total) }
